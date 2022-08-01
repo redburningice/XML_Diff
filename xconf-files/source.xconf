@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration>
+<Configuration xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Property name="ie.ldap.serverHostName" overridable="true"
+              targetFile="codebase/WEB-INF/ieStructProperties.txt"
+              value="plm-clone.world.fluidtechnology.net"/>
+    <Property name="installedProduct.location.Apache" overridable="true"
+              targetFile="codebase/WEB-INF/ieWebServerLocation.txt"
+              value="D:\ptc\Windchill\HTTPServer"/>
+    <Property name="ie.ldap.managerPw" overridable="true"
+              targetFile="codebase/WEB-INF/ieStructProperties.txt"
+              value="encrypted.ie.ldap.managerPw"/>
+    <Property name="wt.webapp.name" overridable="true" targetFile="codebase/wt.properties"
+              value="Windchill"/>
+    <Property name="wt.rmi.server.hostname" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="plm-clone.world.fluidtechnology.net"/>
+    <Property name="installedProduct.location.Tomcat" overridable="true"
+              targetFile="codebase/WEB-INF/ieWebServerLocation.txt"
+              value="D:\ptc\Windchill\Windchill\tomcat"/>
+    <Property name="ie.ldap.propertyBaseDn" overridable="true"
+              targetFile="codebase/WEB-INF/ieStructProperties.txt"
+              value="cn=configuration,cn=Windchill_11.1,o=ptc"/>
+    <Property name="ie.shortcut.folder.name" overridable="true"
+              targetFile="codebase/WEB-INF/ieShortcutFolderName.txt"
+              value="C:\Users\Public\Desktop"/>
+    <Property name="ie.ldap.serverPort" overridable="true"
+              targetFile="codebase/WEB-INF/ieStructProperties.txt"
+              value="389"/>
+    <Property name="ie.ldap.managerDn" overridable="true"
+              targetFile="codebase/WEB-INF/ieStructProperties.txt"
+              value="cn=Manager"/>
+    <Property name="wt.java.cmd" overridable="true" targetFile="codebase/wt.properties"
+              value="D:\ptc\Windchill\Java\jre\bin\java.exe"/>
+    <Property name="wt.jdk" overridable="true" targetFile="codebase/wt.properties"
+              value="D:\ptc\Windchill\Java"/>
+    <Property name="wt.db.dataStore" overridable="true" targetFile="codebase/wt.properties"
+              value="SQLServer"/>
+    <Property name="wt.pom.dbUser" overridable="true" targetFile="db/db.properties"
+              value="wind"/>
+    <Property name="wt.locale.baseData" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="en"/>
+    <Property name="Windchill.Foundation" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="wt.pom.jdbc.database" overridable="true" targetFile="db/db.properties"
+              value="wind"/>
+    <Property name="wt.federation.ie.ldapServer" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ldap://plm-clone.world.fluidtechnology.net:389"/>
+    <Property name="wt.federation.ie.namingService" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="net.fluidtechnology.world.plm-clone.namingService"/>
+    <Property name="wt.pom.dbPassword" overridable="true" targetFile="db/db.properties"
+              value="encrypted.wt.pom.dbPassword"/>
+    <Property name="wt.pom.jdbc.host" overridable="true" targetFile="db/db.properties"
+              value="plm-clone.world.fluidtechnology.net"/>
+    <Property name="wt.inf.container.SiteOrganization.internetDomain" overridable="true"
+              targetFile="codebase/wt/inf/container/SiteOrganization.properties"
+              value="sensus.com"/>
+    <Property name="wt.home" overridable="true" targetFile="codebase/wt.properties"
+              value="D:\ptc\Windchill\Windchill"/>
+    <Property name="wt.pom.jdbc.service" overridable="true" targetFile="db/db.properties"
+              value="WINDCHILL"/>
+    <Property name="wt.federation.ie.VMName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="net.fluidtechnology.world.plm-clone.Windchill"/>
+    <Property name="wt.server.id" overridable="true" targetFile="codebase/wt.properties"
+              value="Windchill"/>
+    <Property name="wt.pom.jdbc.port" overridable="true" targetFile="db/db.properties"
+              value="1433"/>
+    <Property name="wt.federation.org.defaultAdapter" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="net.fluidtechnology.world.Ldap"/>
+    <Property name="wt.inf.container.SiteOrganization.name" overridable="true"
+              targetFile="codebase/wt/inf/container/SiteOrganization.properties"
+              value="Sensus"/>
+    <Property name="wt.federation.org.enterpriseAdapter" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="net.fluidtechnology.world.EnterpriseLdap"/>
+    <Property name="wt.org.initial.uniquenesslevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ORG_LEVEL"/>
+    <Property name="wt.servlet.ajp.minPort" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="8010"/>
+    <Property name="wt.licenseusage.licensepath" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="D:\ptc\Windchill\Windchill\conf\licensing"/>
+    <Property name="WC_PROMPTED.ig.coreproductSettings.siteAdminPw" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="-4b8b989cd0f54f8e"/>
+    <Property name="mapcredentials.admin.adapters" overridable="true"
+              targetFile="codebase/WEB-INF/mapCredentials.txt"
+              value="net.fluidtechnology.world.Ldap^cn=Manager^encrypted.net.fluidtechnology.world.Ldap.cn=Manager"/>
+    <Property name="WC_PROMPTED.ig.ldapSettings.ldapPassword" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="292b3eea085114a"/>
+    <Property name="wt.licenseUsage.initial.connectedToInternet" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="0"/>
+    <AddToProperty name="mapcredentials.admin.adapters"
+                   value="net.fluidtechnology.world.EnterpriseLdap^cn=Manager^encrypted.net.fluidtechnology.world.EnterpriseLdap.cn=Manager"/>
+    <Property name="Windchill.IndexSearch" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="wt.index.indexingLanguage" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="en"/>
+    <Property name="wt.index.solrAdminPassword" overridable="true"
+              targetFile="codebase/WEB-INF/conf/index.solrAuth.properties"
+              value="bKMT3sDB"/>
+    <Property name="wt.index.enableIndexSearchHighAvailability" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="false"/>
+    <Property name="wt.index.indexingLanguageList" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="de,en"/>
+    <Property name="WVS.ThumbnailViewer" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="WVS.ProductViewDownload" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="downgradeViewable.compression.nativecmd" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="D:\ptc\Windchill\Windchill\wvs\bin\pvsoptimize -vc -r pvsoptimize_as_pvschange.rcp -vL $(wt.logs.dir)\pvsoptimize_as_pvschange.log"/>
+    <Property name="WVS.ViewableCompressionUtilities" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="thumbnail.generator.nativecmd" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="D:\ptc\Windchill\Windchill\wvs\bin\pvsthumb -vc -vL $(wt.logs.dir)\thumbnail3d.log"/>
+    <Property name="viewable.compression.nativecmd" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="D:\ptc\Windchill\Windchill\wvs\bin\pvsoptimize -vc -r pvsoptimize_for_illustration.rcp -vL $(wt.logs.dir)\pvsoptimize_for_illustration.log"/>
+    <!--Updated by wt.load.Installer.--><Property name="wt.sysadm.administrators" overridable="true"
+                                                  targetFile="codebase/wt.properties"
+                                                  value="Administrator, wcadmin"/>
+    <Property name="wt.series.HarvardSeries.SensusVersionScheme.delimiter" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="."/>
+    <Property name="wt.series.HarvardSeries.SensusVersionScheme.depth" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="2"/>
+    <Property name="wt.series.HarvardSeries.SensusVersionScheme.level.1" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="wt.series.IntegerSeries"/>
+    <Property name="wt.series.HarvardSeries.SensusVersionScheme.level.2" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="wt.series.IntegerSeries"/>
+    <Property name="wt.series.IntegerSeries.delta" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="1"/>
+    <Property name="wt.series.IntegerSeries.max" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="2147483647"/>
+    <Property name="wt.series.IntegerSeries.min" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="0"/>
+    <Property name="wt.series.HarvardSeries.seriesNames" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="SensusVersionScheme,MilSpec"/>
+    <Property name="ext.sensus.promotionhelper.verbose" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="false"/>
+    <Property name="ext.sensus.promotionhelper.nameformat" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="last"/>
+    <Property name="ext.sensus.promotionhelper.dateformat" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="yyyy.MM.dd"/>
+    <Property name="ext.sensus.promotionhelper.initialCreatorNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=""/>
+    <Property name="ext.sensus.promotionhelper.initialCreatorDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=""/>
+    <Property name="ext.sensus.promotionhelper.initialSubmitterNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERSTELLER_NAME"/>
+    <Property name="ext.sensus.promotionhelper.initialSubmitterDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERSTELLER_DATUM"/>
+    <Property name="ext.sensus.promotionhelper.initialApproverNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="PRUEFER_NAME"/>
+    <Property name="ext.sensus.promotionhelper.initialApproverDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="PRUEFER_DATUM"/>
+    <Property name="ext.sensus.promotionhelper.changeCreatorNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=""/>
+    <Property name="ext.sensus.promotionhelper.changeCreatorDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=""/>
+    <Property name="ext.sensus.promotionhelper.changeSubmitterNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_ERSTELLER_NAME"/>
+    <Property name="ext.sensus.promotionhelper.changeSubmitterDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_ERSTELLER_DATUM"/>
+    <Property name="ext.sensus.promotionhelper.changeApproverNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_PRUEFER_NAME"/>
+    <Property name="ext.sensus.promotionhelper.changeApproverDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_PRUEFER_DATUM"/>
+    <Property name="ext.sensus.promotionhelper.initialApproverNameElecIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="PRUEFER_ELEKTRIK_NAME"/>
+    <Property name="ext.sensus.promotionhelper.initialApproverDateElecIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="PRUEFER_ELEKTRIK_DATUM"/>
+    <Property name="ext.sensus.promotionhelper.changeApproverNameElecIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_PRUEFER_ELEKTRIK_NAME"/>
+    <Property name="ext.sensus.promotionhelper.changeApproverDateElecIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="A_PRUEFER_ELEKTRIK_DATUM"/>
+    <Property name="wt.fv.purgeUnreferencedFilesInterval" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="1"/>
+    <Property name="wt.fv.purgeUnreferencedFilesOlderThan" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="30"/>
+    <Property name="wt.queue.removeCompleted.PublisherQueue1" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="wt.queue.removeCompleted.PublisherQueue2" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="wt.fv.useFvFileThreshold" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="wt.fv.fvFileThreshold" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="10000"/>
+    <Property name="com.ptc.windchill.cadx.common.picker.pickerSearchAttributeList"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="STANDARD"/>
+    <Property name="Windchill.ProI2PDML" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="Windchill.ProI" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="false"/>
+    <Property name="Windchill.PDMLink" overridable="true"
+              targetFile="codebase/installed.properties"
+              value="true"/>
+    <Property name="publish.promote.enabled" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="false"/>
+    <Property name="publish.promote.promotablesOnly" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="true"/>
+    <Property name="publish.service.filterepmdocumentpublishmethod" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="com.ptc.wvs.server.publish.EpmDocumentPublishFilters/filterEPMDocumentPublish"/>
+    <Property name="publish.service.filterpublishmethod" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="com.ptc.wvs.server.publish.EpmDocumentPublishFilters/filterPublish"/>
+    <Property name="publish.cadfileextensionfilter" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="PRT ASM DRW"/>
+    <Property name="wt.workflow.work.UseDefaultNotificationSenderEmail" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="ext.sensus.SharePoint.sharepointStatusAttributeID" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CMNA_Status_SharePointStatus"/>
+    <Property name="ext.sensus.SharePoint.exporttimeAttributeID" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CMNA_Status_exportTime"/>
+    <Property name="ext.sensus.SharePoint.publishtimeAttributeID" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CMNA_Status_publishTime"/>
+    <Property name="ext.sensus.SharePoint.exportEventAttributeID" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CMNA_Status_exportEvent"/>
+    <Property name="ext.sensus.SharePoint.purgeArchivedEntriesOlderThan" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="2592000"/>
+    <Property name="ext.sensus.SharePoint.verboseWorkflow" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="FALSE"/>
+    <Property name="ext.sensus.SharePoint.multiFieldSeparator" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=", "/>
+    <Property name="ext.sensus.SharePoint.ExportDumpDirectory" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="D:\ptc\Windchill\SharePointExport"/>
+    <Property name="ext.sensus.SharePoint.ExportLogDirectory" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="$(wt.logs.dir)\SharePointExport"/>
+    <Property name="wt.workflow.definer.variable.ShowWfEvolvableWarning" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="ext.sensus.changeCoordinatorEMEAAPGroupName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CR Coordinators EM"/>
+    <Property name="ext.sensus.changeCoordinatorGroupName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Coordinators"/>
+    <Property name="ext.sensus.groupsEligibleToEditInitiatorAttributes" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Administrators,Change Coordinators"/>
+    <Property name="ext.sensus.SharePoint.verboseExport" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="error"/>
+    <Property name="ext.sensus.SharePoint.numberOfExportAttempts" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="5"/>
+    <Property name="ext.sensus.SharePoint.secondsBetweenExportAttempts" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="60"/>
+    <Property name="ext.sensus.change.laatzenTask.1" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Buchhaltung / Accounting,Schulze_je,Schulze_je,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.2" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Strategischer Einkauf / Purchasing,schlindwein_pe,schlindwein_pe,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.3" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Strategischer Einkauf / Purchasing,porbadnigk_th,porbadnigk_th,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.4" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Strategischer Einkauf / Purchasing,plachetzky_wo,plachetzky_wo,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.5" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Strategischer Einkauf / Purchasing,mueller_st,mueller_st,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.6" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Beschaffung / Procurement,engelking_an,engelking_an,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.7" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Beschaffung / Procurement,dietrich_th,dietrich_th,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.8" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Qualitätssicherung / Quality Assurance,job_be,job_be,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.9" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Qualitätssicherung / Quality Assurance,eggers_vo,eggers_vo,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.10" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Arbeitsvorbeitung / Industrial Engineering,buch_pe,buch_pe,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.11" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Arbeitsvorbeitung / Industrial Engineering / (Exemplar 3),kaufhold_ma,kaufhold_ma,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.12" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Elektronik / Electronics,stender_ca,stender_ca,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.13" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Versand / Shipping,marcinkowski_ha,marcinkowski_ha,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.14" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Linienleiter / Manager Production Line,fechner_ma,fechner_ma,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.15" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Linienleiter / Manager Production Line,slatosch_ed,slatosch_ed,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.16" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Produktionsleiter / Production Manager,quedenbaum_th,quedenbaum_th,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.17" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Fertigungsteuerung / Production Control,kubon_uw,kubon_uw,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.18" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Marketing C&amp;I / Marketing,schulz_je,andre_mi,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.19" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Marketing AMR / Marketing,,andre_mi,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.20" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA R&amp;D,Tedja_ma,Tedja_ma,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.21" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA AMR / Automatic Meter Reading / Firmware,,Brehm_uw,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.22" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Vertrieb / Sales,weber_an,weber_an,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.23" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Logistik / Logistics,krause_lu,krause_lu,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.change.laatzenTask.23" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Change Task LA Logistik / Logistics,krause_lu,krause_lu,Bitte prüfen Sie die Change Notice (vormals TKM) auf Aufgaben, welche zu Ihrem Fachbereich gehören und stellen Sie deren Erledigung sicher."/>
+    <Property name="ext.sensus.numberOfChangeNoticeFormTemplateEMEAAP" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CHANGE_NOTICE_FORM_EMEAAP"/>
+    <Property name="ext.arsandis.util.ActivityPboUpdater.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.arsandis.util.StandardAttributeTranslaterPboWorkflow.verboseLevel"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.jloos.iba.IBAHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.change.SensusChangeHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.arsandis.client.UserPickerDataUtility.verboseLevel"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.change.SensusChangeNoticeAttributePopulator.verboseLevel"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="publish.cadtimeout.drawing" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="1800"/>
+    <Property name="wt.doc.WTDocument" overridable="true"
+              targetFile="codebase/com/ptc/core/rule/server/delegate/init/RuleConfigurableTypeAttribute.properties"
+              value="name,number,lifeCycle.id,lifeCycle,teamTemplate,teamTemplate.id,folder.id,organization.id"/>
+    <Property name="ext.arsandis.client.OrgPickerDataUtility.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.arsandis.client.OrgPickerDataUtility.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.ppap.SensusPPAPHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="wt.services.service.85276001" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ext.sensus.ppap.SensusPPAPService/ext.sensus.ppap.StandardSensusPPAPService"/>
+    <Property name="com.ptc.netmarkets.user.principalWildcardSearch" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/OrganizationDataUtility/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.arsandis.client.OrgPickerDataUtility/singleton"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/GenericUserPickerDataUtility/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.arsandis.client.UserPickerDataUtility/singleton"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/InitiatorReadOnlyDataUtility/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.sensus.change.SensusReadOnlyDataUtility/singleton"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/ChangeCoordinatorDataUtility/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.sensus.change.SensusUserPickerDataUtility/singleton"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/ChangeCoordinatorDataUtilityEMEAAP/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.sensus.change.SensusUserPickerDataUtilityEMEAAP/singleton"/>
+    <Property name="wt.util.protocolsForHRefs" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="((telnet|ldap(s?)|(ht|f)tp(s?)|file):(//|&lt;)|mailto:|news:|skype:).*"/>
+    <Property name="wt.queue.max.processQueues" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="100"/>
+    <Property name="wt.pom.implicitTransactionsRollbackTime" overridable="true"
+              targetFile="db/db.properties"
+              value="0"/>
+    <Property name="wt.pom.connectionCloserIdleTimeout" overridable="true"
+              targetFile="db/db.properties"
+              value="1800"/>
+    <!--Setting the property wt.pom.dbUser during upgrade processing.--><Property name="wt.pom.dbUser" overridable="true" targetFile="db/db.properties"
+                                                                                  value="wind"/>
+    <!--Setting the property wt.pom.dbPassword during upgrade processing.--><Property name="wt.pom.dbPassword" overridable="true" targetFile="db/db.properties"
+                                                                                      value="encrypted.wt.pom.dbPassword"/>
+    <!--Setting the property wt.pom.jdbc.database during upgrade processing.--><Property name="wt.pom.jdbc.database" overridable="true" targetFile="db/db.properties"
+                                                                                         value="wind"/>
+    <!--Setting the property wt.pom.jdbc.service during upgrade processing.--><Property name="wt.pom.jdbc.service" overridable="true" targetFile="db/db.properties"
+                                                                                        value="WINDCHILL"/>
+    <!--Setting the property wt.pom.jdbc.port during upgrade processing.--><Property name="wt.pom.jdbc.port" overridable="true" targetFile="db/db.properties"
+                                                                                     value="1433"/>
+    <!--Setting the property wt.pom.jdbc.host during upgrade processing.--><Property name="wt.pom.jdbc.host" overridable="true" targetFile="db/db.properties"
+                                                                                     value="plm-clone"/>
+    <!--Setting the property wt.pom.dbSchemaUser during upgrade processing.--><Property name="wt.pom.dbSchemaUser" overridable="true" targetFile="db/db.properties"
+                                                                                        value="wind"/>
+    <!--Setting the property wt.db.appUserRole during upgrade processing.--><Property name="wt.db.appUserRole" overridable="true"
+                                                                                      targetFile="codebase/user.properties"
+                                                                                      value="wind"/>
+    <!--Setting the property com.ptc.windchill.upgrade.locale during upgrade processing.--><Property name="com.ptc.windchill.upgrade.locale" overridable="true"
+                                                                                                     targetFile="codebase/wt.properties"
+                                                                                                     value="English"/>
+    <!--Setting the property com.ptc.windchill.upgrade.VaultOption during upgrade processing.--><Property name="com.ptc.windchill.upgrade.VaultOption" overridable="true"
+                                                                                                          targetFile="codebase/wt.properties"
+                                                                                                          value="Configure different file vault host information"/>
+    <!--Setting the property com.ptc.windchill.upgrade.FileServerOption during upgrade processing.--><Property name="com.ptc.windchill.upgrade.FileServerOption" overridable="true"
+                                                                                                               targetFile="codebase/wt.properties"
+                                                                                                               value="Keep existing File Server Configuration"/>
+    <!--Setting the property wt.generation.sql.auditTablespaceName during upgrade processing.--><Property name="wt.generation.sql.auditTablespaceName" overridable="true"
+                                                                                                          targetFile="codebase/wt.properties"
+                                                                                                          value="WCAUDIT"/>
+    <!--Setting the property wt.access.ModifySecurityLabelsMigrator.enable during upgrade processing.--><Property name="wt.access.ModifySecurityLabelsMigrator.enable" overridable="true"
+                                                                                                                  targetFile="codebase/wt.properties"
+                                                                                                                  value="false"/>
+    <!--Setting the property wt.access.ModifySecurityLabelsMigrator.sourcePermission during upgrade processing.--><Property name="wt.access.ModifySecurityLabelsMigrator.sourcePermission"
+                                                                                                                            overridable="true"
+                                                                                                                            targetFile="codebase/wt.properties"
+                                                                                                                            value="1"/>
+    <!--Setting the property wt.epm.familytable.validate.mandatory during upgrade processing.--><Property name="wt.epm.familytable.validate.mandatory" overridable="true"
+                                                                                                          targetFile="codebase/wt.properties"
+                                                                                                          value="true"/>
+    <!--Setting the property com.ptc.windchill.upgrade.isUpgradeRunning during upgrade processing.--><Property name="com.ptc.windchill.upgrade.isUpgradeRunning" overridable="true"
+                                                                                                               targetFile="codebase/wt.properties"
+                                                                                                               value="false"/>
+    <ConfigurationRef xlink:href="utilities/wca/conf/windchill/windchillconfigurator.xconf"/>
+    <Property name="wt.index.enabled" overridable="true" targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="worker.exe.whitelist.prefixes" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="D:\ptc"/>
+    <Property name="wt.auth.trustedHosts" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="plm-clone.world.fluidtechnology.net"/>
+    <Property name="wt.index.solrEffectiveUid" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="index"/>
+    <Property name="wt.index.solrHost" overridable="true" targetFile="codebase/wt.properties"
+              value="plm-clone.world.fluidtechnology.net"/>
+    <Property name="wt.query.template.unrestrictedGroups" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Administrators,Sensus All,UserType-Internal"/>
+    <Property name="wt.index.solrPort" overridable="true" targetFile="codebase/wt.properties"
+              value="8085"/>
+    <Property name="wt.index.solrAdminUser" overridable="true"
+              targetFile="codebase/WEB-INF/conf/index.solrAuth.properties"
+              value="index"/>
+    <Property name="wt.fv.forceContentToVault" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="false"/>
+    <Property name="wt.fv.replicationFileSizeThreshold" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="0"/>
+    <Property name="wt.manager.ntServiceName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="PTC Windchill"/>
+    <Property name="wt.manager.cmd.MethodServer" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="$(wt.manager.cmd.MethodServer.java.command)"/>
+    <Property name="wt.manager.cmd.ServerManager" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="$(wt.manager.cmd.ServerManager.java.command)"/>
+    <Property name="wt.manager.cmd.common.java.signalReducer" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="-Xrs"/>
+    <Property name="wt.pom.dbPassword" overridable="true" targetFile="codebase/wt.properties"
+              value="123"/>
+    <Property name="wt.wrmf.transport.TempFileDeletionInterval" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="2"/>
+    <Property name="wt.org.services.userPasswordChangeEnabled" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="wt.org.services.userPasswordChangeEnabled" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="productview.version.checker.plugin.disabled" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="true"/>
+    <Property name="com.ptc.netmarkets.userSearch.maxCount" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="200"/>
+    <Property name="wt.org.immediateCalculationOfLicenseMembers" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="publish.usesPublishRules" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="ARBORTEXT PROE"/>
+    <Property name="publish.afterloadermethod" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="ext.sensus.publish.RepresentationAfterloader/hook"/>
+    <Property name="wt.fv.REMOTE_ITEM_TIMEOUT" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="900"/>
+    <Property name="wt.fv.status_check_of_remoteitem" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="publish.copyrepresentationsforward" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="false"/>
+    <Property name="webpage.allowmakedefaultrepresentation" overridable="true"
+              targetFile="codebase/WEB-INF/conf/wvs.properties"
+              value="admin"/>
+    <Property name="ext.sensus.publish.SensusAdditionalEPMDocJobs.verboseLevel"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="INFO"/>
+    <Property name="wt.calendar.calculateDefaults" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="false"/>
+    <Property name="ext.as.changeSponsorGroupName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="AS Change Sponsors"/>
+    <Property name="wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/ASChangeSponsorDataUtility/java.lang.Object/0"
+              overridable="true"
+              targetFile="codebase/service.properties"
+              value="ext.as.change.ASChangeSponsorDataUtility/singleton"/>
+    <Property name="wt.mail.mailhost" overridable="true" targetFile="codebase/wt.properties"
+              value="smtp.xylem.com"/>
+    <Property name="ext.sensus.change.SensusChangeUtil.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="WARN"/>
+    <Property name="ext.sensus.change.SensusChangeHelperNA.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="WARN"/>
+    <Property name="wt.content.xssVulnerableExtensions" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="mp4"/>
+    <Service context="default" name="com.ptc.core.ui.validation.SimpleValidationFilter"
+             targetFile="codebase/service.properties">
+        <Option cardinality="duplicate" order="0" overridable="true" requestor="null"
+                selector="asNumberGeneratorValidationFilter"
+                serviceClass="ext.as.number.ASGenerateNumbersActionValidationFilter"/>
+    </Service>
+    <Property name="ext.as.cad.ASEPMDocumentNamingDelegate.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="DEBUG"/>
+    <Service context="default"
+             name="com.ptc.windchill.uwgm.proesrv.c11n.EPMDocumentNamingDelegate"
+             targetFile="codebase/service.properties">
+        <Option cardinality="singleton" order="0" overridable="true"
+                requestor="wt.epm.EPMDocument"
+                serviceClass="ext.as.cad.ASEPMDocumentNamingDelegate"/>
+    </Service>
+    <Property name="ext.as.promotionhelper.nameformat" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="fdotlast"/>
+    <Property name="ext.as.promotionhelper.initialSubmitterNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.CREATED_BY"/>
+    <Property name="ext.as.promotionhelper.initialApproverDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.RELEASE_DATE_CREATED"/>
+    <Property name="ext.as.promotionhelper.initialApproverNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.APPROVED_BY_CREATED"/>
+    <Property name="ext.as.promotionhelper.changeSubmitterNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.CHANGED_BY"/>
+    <Property name="ext.as.promotionhelper.changeApproverNameIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.APPROVED_BY_CHANGED"/>
+    <Property name="ext.as.promotionhelper.changeApproverDateIBA" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="com.as.RELEASE_DATE_CHANGED"/>
+    <Property name="ext.as.promotionhelper.allowApprovalBySubmitter" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="false"/>
+    <Property name="ext.sensus.change.CEMContactsGroupPrefix" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CEM_Contacts_"/>
+    <Property name="ext.sensus.change.CEMProjectTemplateName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="CEM Implementation"/>
+    <Property name="ext.arsandis.util.GeneralLogger.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.as.change.ASChangeHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.as.change.ASChangeSponsorDataUtility.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.as.promotion.ASPromotionHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.change.SensusVarianceHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.ppap.StandardSensusPPAPService.verboseLevel"
+              overridable="true"
+              targetFile="codebase/wt.properties"
+              value="ERROR"/>
+    <Property name="ext.sensus.rfq.MasterProjectTemplateName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="RFQ Master"/>
+    <Property name="ext.sensus.rfq.RFQProjectPrefix" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="RFQ"/>
+    <Property name="ext.sensus.rfq.SupplierInfoWorkflowName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Sensus RFQ Inform Suppliers"/>
+    <Property name="ext.sensus.rfq.SupplierProjectTemplateName" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="RFQ Supplier"/>
+    <Property name="wt.workflow.work.DisplayWtUserPicker" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="true"/>
+    <Property name="ext.sensus.change.SensusCEMHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="TRACE"/>
+    <Property name="ext.sensus.rfq.SensusRFQHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="TRACE"/>
+    <Property name="ext.sensus.rfq.StandardSensusRFQService.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="TRACE"/>
+    <Property name="ext.arsandis.util.ProjectHelper.verboseLevel" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="DEBUG"/>
+    <Property name="ext.sensus.SensusReportHelper.licenseGroups" overridable="true"
+              targetFile="codebase/wt.properties"
+              value=""/>
+    <Property name="ext.sensus.SensusReportHelper.groups" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="Sensus Department Manufacturing Group,Sensus Department Manufacturing Test Group,Sensus Department Other Group,Sensus Department CNC Group,Sensus Department Supply Chain Group,Sensus Department Electrical Engineering Group,Sensus Department Mechanical Engineering Group,Sensus Department Quality Assurance Group,Sensus Department Simulation Group,Sensus Department Document Authors Group,Sensus Department Purchasing Group,Sensus Department Regulatory Group"/>
+    <Property name="wt.manager.cmd.ServerManager.java.cmd.quoted" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="&#34;D:\ptc\Windchill\Java\jre\bin\java_SM.exe&#34;"/>
+    <Property name="wt.manager.cmd.MethodServer.java.cmd.quoted" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="&#34;D:\ptc\Windchill\Java\jre\bin\java_FGMS.exe&#34;"/>
+    <Property name="wt.manager.cmd.BackgroundMethodServer.java.cmd.quoted" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="&#34;D:\ptc\Windchill\Java\jre\bin\java_BGMS.exe&#34;"/>
+    <Property name="wt.pom.queryLimit" overridable="true" targetFile="db/db.properties"
+              value="-1"/>
+    <Property name="wt.webserver.port" overridable="true" targetFile="codebase/wt.properties"
+              value="443"/>
+    <Property name="wt.webserver.protocol" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="https"/>
+    <Property name="wt.server.codebase" overridable="true"
+              targetFile="codebase/wt.properties"
+              value="https://plm-dev-12.xylem.com/Windchill"/>
+    <Property name="wt.pom.minDbConnections" overridable="true" targetFile="db/db.properties"
+              value="5"/>
+    <Property name="wt.index.server.solrAdminUser" overridable="true"
+              targetFile="SolrServer/config/solrserver.properties"
+              value="index"/>
+</Configuration>
