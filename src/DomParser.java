@@ -14,12 +14,6 @@ import java.util.LinkedHashMap;
 
 public class DomParser {
 
-    // Console font colors by https://stackoverflow.com/a/45444716
-    public static final String RED = "\033[0;31m";
-    public static final String YELLOW = "\033[0;33m";
-    public static final String PURPLE = "\033[0;35m";
-    public static final String RESET = "\033[0m";
-
     public static void parseXml(File xmlPath) {
         LinkedHashMap<String, String> output = new LinkedHashMap<>();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -35,20 +29,10 @@ public class DomParser {
             Document doc = builder.parse(xmlPath);
 
             NodeList nodeList = doc.getElementsByTagName("Property");
-            for(int n = 0; n < nodeList.getLength(); n++) {
+            for (int n = 0; n < nodeList.getLength(); n++) {
                 NamedNodeMap nodeMap = nodeList.item(n).getAttributes();
-
-                System.out.println(YELLOW + nodeMap.getNamedItem("name").getNodeValue() + RESET + " = " + PURPLE + nodeMap.getNamedItem("value").getNodeValue());
-                /*
-                for(int o = 0; o < nodeMap.getLength(); o++) {
-                    // NodeName = Name of the attribute o
-                    // NodeValue or TextContent = value of the attribute o
-                    if(nodeMap.item(o).getNodeName().equals("name")) {
-                        System.out.println(nodeMap.item(o).getNodeValue() + "");
-                    }
-                }
-
-                 */
+                System.out.println(Console.RESET + nodeMap.getNamedItem("name").getNodeValue() + " | " + Console.YELLOW + nodeMap.getNamedItem("value").getNodeValue() + Console.RESET + " | " + Console.CYAN + "2nd file attribute value");
+                Console.nextEntry();
             }
 
         } catch (ParserConfigurationException | IOException | SAXException e) {

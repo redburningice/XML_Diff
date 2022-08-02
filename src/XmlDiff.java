@@ -13,6 +13,7 @@ public class XmlDiff {
         }
         String filePath1 = args[0];
         XmlFile file1 = new XmlFile(filePath1);
+        Console.clear();
         DomParser.parseXml(file1);
 
     }
